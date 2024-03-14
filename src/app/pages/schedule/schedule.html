@@ -1,0 +1,109 @@
+<ion-header translucent="true">
+  <ion-toolbar>
+    <ion-buttons  slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title >Scheduled Events</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Schedule</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <div class="banner-container">
+      <!-- Background Image -->
+      <div class="banner-background"
+      style="background-image: url('https://i.pinimg.com/736x/54/11/aa/5411aa7a3c0f55c65cbb167c932190c1.jpg');">
+    </div>
+    
+    <!-- Content Container with Padding -->
+    <div class="banner-content" style="padding: 20px;">
+
+        <!-- Event Details -->
+        <h1 class="banner-heading">Tech Conference</h1>
+        <p class="banner-location">Location: Auditorium</p>
+        <p class="banner-eligibility">Eligibility: Only MCA students</p>
+        
+        <!-- Callout Banner -->
+        <div class="callout-banner">
+          <p class="callout-text" >Register now and be part of the action!</p>
+          <button class="callout-button" id="present-alert" >Register</button>
+          <ion-alert trigger="present-alert" header="This is alert" message="Registered successfully" [buttons]="alertButtons"
+            ></ion-alert>
+        </div>
+      </div>
+      <div class="banner-background"
+      style="background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/technology-event-poster-template-7d2b07529725bda0795cf06580cb8fa7_screen.jpg?ts=1636972249'); object-position: start; object-fit: scale-down;">
+    </div>
+
+    <!-- Content Container with Padding -->
+    <div class="banner-content" style="padding: 20px;">
+
+      <!-- Event Details -->
+      <h1 class="banner-heading">Tech Conference</h1>
+      <p class="banner-location">Location: Auditorium</p>
+      <p class="banner-eligibility">Eligibility: Only MCA students</p>
+      <p class="banner-description">Join us for an exciting Tech Conference that will test your skills and bring out the
+        programmer in you. Don't miss this chance to showcase your talents and compete with the best!</p>
+
+      <!-- Callout Banner -->
+      <div class="callout-banner">
+        <p class="callout-text" id="present-alert">Register now and be part of the action!</p>
+        <button class="callout-button">Register</button>
+      </div>
+    </div>
+    </div>
+
+  <div class="banner-container">
+    <!-- Background Image -->
+    <div class="banner-background"
+      style="background-image: url('https://tryolabs.com/assets/blog/machine-learning-deep-learning-conferences/machine-learning-conferences-542593dd92.png');">
+    </div>
+
+    <!-- Content Container with Padding -->
+    <div class="banner-content" style="padding: 20px;">
+
+      <!-- Event Details -->
+      <h1 class="banner-heading">Amazing Cultural Event</h1>
+      <p class="banner-location">Location: Quadrangle</p>
+      <p class="banner-eligibility">Eligibility: Open for all</p>
+      <p class="banner-description">Join us for an exciting sports event that will test your skills and bring out the
+        athlete in you. Don't miss this chance to showcase your talents and compete with the best!</p>
+
+      <!-- Callout Banner -->
+      <div class="callout-banner">
+        <p class="callout-text">Register now and be part of the action!</p>
+        <button class="callout-button">Register</button>
+        <ion-alert trigger="present-alert" header="This is alert" message="Registered successfully" [buttons]="alertButtons"
+        ></ion-alert>
+      </div>
+    </div>
+    <div class="banner-background"
+    style="background-image: url('https://marketplace.canva.com/EAFzr5YgPtI/1/0/1131w/canva-cream-illustrative-celebrating-art-%26-culture-poster-1wi8qhFZGHs.jpg');">
+  </div>
+
+  <!-- Content Container with Padding -->
+  <div class="banner-content" style="padding: 20px;">
+
+    <!-- Event Details -->
+    <h1 class="banner-heading">Amazing Cultural Event</h1>
+    <p class="banner-location">Location: Quadrangle</p>
+    <p class="banner-eligibility">Eligibility: Open for all</p>
+    <p class="banner-description">Join us for an exciting cultural event that will transport you to different corners of the world through music, dance, art, and cuisine!</p>
+
+    <!-- Callout Banner -->
+    <div class="callout-banner">
+      <p class="callout-text">Register now and be part of the action!</p>
+      <button class="callout-button" id="r1"> Register</button>
+      <ion-alert trigger="r1" header="This is alert" message="Registered successfully" [buttons]="alertButtons"
+      ></ion-alert>
+    </div>
+  </div>
+  </div>
+
+</ion-content>

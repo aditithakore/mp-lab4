@@ -1,0 +1,96 @@
+<ion-content>
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-buttons slot="end">
+        <ion-button (click)="presentPopover($event)">
+          <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="about-header">
+    <img src="/assets/img/about/college.jpg" style="width: 100%;">
+  </div>
+
+
+  <div class="about-info">
+    <h3 class="ion-padding-top ion-padding-start" style="text-align: center; font-weight: 700;">About Us</h3>
+
+    <p class="ion-padding-start ion-padding-end">
+      The institute is located in 47 acres of green campus at Andheri (W), the fastest growing suburb of Mumbai. The
+      campus also houses four Bhavan's Institutions of great repute namely Bhavan's College (the arts, commerce and
+      science college), Sardar Patel College of Engineering Government aided Engineering college, S.P. Jain Institute
+      of Management and Research, a management institute and A.H. Wadia, higher secondary school.
+
+      In 1957, the Bharatiya Vidya Bhavan conceived the idea of establishing an engineering college in Mumbai. Sardar
+      Patel College of Engineering was inaugurated on 19th August 1962.
+    </p>
+
+    <h3 class="ion-padding-top ion-padding-start">Students Achievements</h3>
+    <ion-grid style="margin: 10px 0;">
+      <ion-row style="margin: 10px 0;">
+        <!-- First Image -->
+        <ion-col size="6" style=" border: 10px solid black;" >
+          <ion-img src="https://www.spit.ac.in/wp-content/uploads/2020/03/DJ-Sanghvi-Hackathon.png" alt="Image 1" style="width: 100%; height: 100%; border-radius: 8px;"></ion-img>
+        </ion-col>
+
+        <!-- Second Image -->
+        <ion-col size="6" style=" border: 10px solid black;">
+          <ion-img src="https://images.shiksha.com/mediadata/images/1551434964phpHc1LkG.jpeg" alt="Image 2" style="width: 100%; height: 100%; border-radius: 8px;"></ion-img>
+        </ion-col>
+      </ion-row>
+
+      <ion-row style="margin: 10px 0;">
+        <!-- Third Image -->
+        <ion-col size="6" style=" border: 10px solid black;">
+          <ion-img src="https://www.spit.ac.in/wp-content/uploads/2020/02/5_BITS_resized.png" alt="Image 3" style="width: 100%; height: 100%; border-radius: 8px;"></ion-img>
+        </ion-col>
+
+        <!-- Fourth Image -->
+        <ion-col size="6" style=" border: 10px solid black;">
+          <ion-img src="https://www.spit.ac.in/wp-content/uploads/2020/03/I_Hack_ESummit2020Horizontal-Scaled.png" alt="Image 4" style="width: 100%; height: 100%; border-radius: 8px;"></ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <ion-accordion-group>
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label>Vision</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Keeping in view the growing and changing needs of Industry and society, we at S.P.I.T. are committed to creating an environment which will raise the intellectual and moral standards of our students. Our endeavor is to strive for the overall development of students, thereby enabling them to accept challenges. In tune with this our vision is <br><strong>To build a renowned institute which will produce graduate engineers with global competency and social sensitivity.</strong></div>
+      </ion-accordion>
+      <ion-accordion value="second">
+        <ion-item slot="header" color="light">
+          <ion-label>Mission</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ul>
+         <li> Provide high quality education in engineering and technology promoting the Indian Values and Ethos that will prepare the participants to lead lives of personal integrity and civic responsibility in a global society.</li>
+        <li>Promote an Educational Environment that combines academic study with the excitement of intellectual curiosity for engineers of tomorrow.</li>
+      <li> Enhance career opportunities for students through Industry-Institute interaction, value-added courses and projects in cutting edge technology.
+</li>    <li>      Inculcate Entrepreneurial mindset in students to make them job creators.</li>
+<li>Focus on applied research to create next generation technologies.</li>
+        </ul>
+        </div>
+      </ion-accordion>
+    </ion-accordion-group>
+
+    <ion-fab slot="fixed" vertical="bottom" horizontal="end"> 
+    <ion-fab-button>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button color="blue" href="https://www.spit.ac.in/placements/">
+        <ion-icon name="stats-chart-outline"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="blue" href="https://www.spit.ac.in/central-library/">
+        <ion-icon name="bookmarks-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
